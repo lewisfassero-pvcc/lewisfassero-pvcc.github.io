@@ -1,0 +1,9 @@
+table {font-family: times new roman; font-size: 20px; font-weight: bold; color: #ffffff;}
+select, input {font-family: times new roman; font-size: 16px; font-weight: bold; color: #000000;}
+
+body {background: #000099;}
+
+a:link {color:#9999ff;}      /* unvisited link */
+a:visited {color:#9999ff;}   /* visited link */
+a:hover {color:#9999ff;}     /* mouse over link */
+a:active {color:#ffffff;}    /* selected link */ 
