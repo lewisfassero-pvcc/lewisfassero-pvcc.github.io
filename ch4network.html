@@ -1,0 +1,127 @@
+<!DOCTYPE=html>
+<html lang="en">
+<!-- Name: Lewis Fassero-->
+<!-- Program Purpose: This is my PVCC "Networking and the Internet" webpage. It aims to define key terms on the topic.-->
+
+<head>
+	<title>Networking & the Internet</title>
+	<style>
+		body{color:#eee5e5; background-image: url(ch4wp.gif); font-family: candara, helvetica, arial, sans-serif}
+		h1{color: #eee5e5}
+		h2{color: #eee5e5}
+		h3{}
+
+		table{background-color:#2c2c2c; width:50%; border:2px solid #ffffff; margin:auto}
+		tr{}
+		td{padding:9px; padding-left: 25px; padding-right: 25px;}
+		td.navbarstl{padding:0px}
+
+		ul{}
+		ol{}
+		li {}
+
+		a{text-decoration:none; font-weight:bold; font-size:1em}
+		a:link{color:#ffa8f1}
+		a:visited{color:#fb82ff}
+		a:hover{color:#fec1ff}
+		a:active{color:#ffdafe}
+
+		a.navbarstl{text-decoration:none; font-weight:bold; font-size:1.2em}
+		a.navbarstl:link{color:#1c197e}
+		a.navbarstl:visited{color:#00004c}
+		a.navbarstl:hover{color:#2a28b0}
+		a.navbarstl:active{color:#0a007e}
+		
+		.image-shadow {box-shadow: -1px 1px 20px #000000; /* Set the shadow properties (horizontal offset, vertical offset, blur radius, shadow color). */}
+
+		.centered-text {text-align: center;}
+
+	</style>
+</head>
+
+<body>
+<table>
+	<tr style="background-color:#eee5e5; ">
+		<td class="navbarstl"><a href="index.html" class="navbarstl">Home</a></td>
+		<td class="navbarstl"><a href="https://www.pvcc.edu" class="navbarstl" target="_blank">PVCC</a></td>
+		<td class="navbarstl"><a href="https://www.w3schools.com/html/" class="navbarstl" target="_blank">W3 Schools</a></td>
+		<td class="navbarstl"><a href="contactus.html" class="navbarstl">Contact Us</a></td>
+	</tr>
+	<tr><td colspan="4" style="background-color: #b028a5;">
+		<h1 class="centered-text" style="color:#0d004c">Networking and the Internet</h1>
+	</td></tr>
+
+	<tr><td colspan="4">
+
+		<table style="width:100%; border:0px">
+			<tr><td><b>TERM</b></td><td></td><td><b>DEFINITION</b></td></tr>
+			<tr><td colspan="3"><u>Networking classifications</u></td></tr>
+			<tr><td></td><td>LAN</td><td>(local area network) A collection of computers in a single building or building complex.</td></tr>
+			<tr><td></td><td>MAN</td><td>(metropolitan area network) A network of intermediate size, such as one spanning a local community.</td></tr>
+			<tr><td></td><td>WAN</td><td>A network which links machines over a greater distance—perhaps in neighboring cities or on opposite sides of the world.</td></tr>
+			<tr><td colspan="3"><u>Network models</u></td></tr>
+			<tr><td></td><td>bus network</td><td>A network in which the machines are all connected to a common communication line called a bus.</td></tr>
+			<tr><td></td><td>star network</td><td>A network in which one machine serves as a central focal point to which all the others are connected.</td></tr>
+			<tr><td colspan="3"><u>Protocols</u></td></tr>
+			<tr><td></td><td>CSMA/CD Ethernet</td><td>This protocol dictates that each message be broadcast to all the machines on the bus.</td></tr>
+			<tr><td></td><td>CSMA/CA Wifi</td><td>A wireless network that adopts the policy of trying to avoid collisions rather than trying to detect them.</td></tr>
+			<tr><td colspan="3"><u>Combining networks</u></td></tr>
+			<tr><td></td><td>repeater</td><td>A device that passes signals back and forth between the two original buses (usually with some form of amplification) without considering the meaning of the signals.</td></tr>
+			<tr><td></td><td>bridge</td><td>A device that connects two buses but does not necessarily pass all messages across the connection. Instead, it looks at the destination address that accompanies each message and forwards a message across the connection only when that message is destined for a computer on the other side.</td></tr>
+			<tr><td></td><td>switch</td><td>Essentially a bridge with multiple connections, allowing it to connect several buses rather than just two.</td></tr>
+			<tr><td></td><td>router</td><td>A special-purpose computer used for forwarding messages.</td></tr>
+			<tr><td></td><td>gateway</td><td>The "point" at which one network is linked to an internet.</td></tr>
+			<tr><td colspan="3"><u>Client/server model</u></td></tr>
+			<tr><td></td><td>P2P: peer-to-peer</td><td>A model which involves processes that provide service to and receive service from each other.</td></tr>
+			<tr><td></td><td>distributed system</td><td>A system that consists of software units that execute as processes on different computers.</td></tr>
+			<tr><td></td><td>cloud computing</td><td>A system in which huge pools of shared computers on the network can be allocated for use by clients as needed.</td></tr>
+			<tr><td colspan="3"><u>Internet addressing</u></td></tr>
+			<tr><td></td><td>tier 1</td><td>ISPs that consist of very high-speed, high-capacity, international WANs.</td></tr>
+			<tr><td></td><td>tier 2</td><td>ISPs that tend to be more regional in scope and less potent in their capabilities.</td></tr>
+			<tr><td></td><td>tier 3</td><td>An ISP that is essentially an independent Internet, sometimes called an intranet, operated by a single authority that is in the business of supplying Internet access to individual homes and businesses.</td></tr>
+			<tr><td colspan="3"><u>IP address</u></td></tr>
+			<tr><td></td><td>ICANN</td><td>A nonprofit corporation established to coordinate the Internet's operation. See <a href="https://www.icann.org/" target="blank">ICANN</a>.</td></tr>
+			<tr><td></td><td>DNS</td><td>(domain name system) Essentially directories that provide address translation services to clients.</td></tr>
+			<tr><td></td><td>TLD: top-level domain</td><td>Domain names that are descriptive of the organization registering the domain, which enhances their utility for humans.</td></tr>
+			<tr><td></td><td>country-code TLDs</td><td>Two-letter TLDs for each specific country. See <a href="https://www.worldstandards.eu/other/tlds/" target="blank">internet country domains list</a>.</td></tr>
+			<tr><td colspan="3"><u>Internet protocols</u></td></tr>
+			<tr><td></td><td>FTP</td><td>An application for listing and copying files across the network.</td></tr>
+			<tr><td></td><td>HTTP</td><td>Traditional network applications that have come to be handled by webpages.</td></tr>
+			<tr><td></td><td>SMTP</td><td>A way that two computers on the network may interact when transmitting an email message from one host to the other.</td></tr>
+			<tr><td colspan="3"><u>World Wide Web</u></td></tr>
+			<tr><td></td><td>URL</td><td>A unique address to locate and retrieve documents on the Web.</td></tr>
+			<tr><td></td><td>client-side activities</td><td>Activities performed by a client (such as a browser).</td></tr>
+			<tr><td></td><td>server-side activities</td><td>Activities performed by a server (such as a webserver).</td></tr>
+			<tr><td colspan="3"><u>Internet four-layer software</u></td></tr>
+			<tr><td></td><td>application layer</td><td>The layer where a message typically originates.</td></tr>
+			<tr><td></td><td>transport layer</td><td>The layer where the message is sent after the application layer to be prepared for transmission.</td></tr>
+			<tr><td></td><td>network layer</td><td>The layer where the message is sent after the transport layer to be prepared for transmission.</td></tr>
+			<tr><td></td><td>link layer</td><td>The layer where the message is received at the destination and passed back up the hierarchy until it is delivered to the application layer at the message's destination.</td></tr>
+			<tr><td colspan="3"><u>Internet is:</u></td></tr>
+			<tr><td></td><td>packet-switching network</td><td>The transfer of small pieces of data across various networks.</td></tr>
+			<tr><td></td><td>fault tolerant</td><td>An Internet that is tolerant of many types of faults.</td></tr>
+			<tr><td></td><td>redundant</td><td>An Internet that can fall back to other, redundant pathways for delivery when congestion or failure occur.</td></tr>
+			<tr><td colspan="3"><u>Cybersecurity</u></td></tr>
+			<tr><td></td><td>malware</td><td>Malicious software.</td></tr>
+			<tr><td></td><td>virus</td><td>Software that infects a computer by inserting itself into programs that already reside in the machine.</td></tr>
+			<tr><td></td><td>worm</td><td>An autonomous program that transfers itself through a network, taking up residence in computers and forwarding copies of itself to other computers.</td></tr>
+			<tr><td></td><td>Trojan horse</td><td>A program that enters a computer system disguised as a desirable program, such as a game or useful utility package, that is willingly imported by the victim.</td></tr>
+			<tr><td></td><td>spyware</td><td>Software that collects information about activities at the computer on which it resides and reports that information back to the instigator of the attack.</td></tr>
+			<tr><td></td><td>phishing</td><td>A technique of obtaining information explicitly by simply asking for it.</td></tr>
+			<tr><td></td><td>DoS attack</td><td>The process of overloading a computer with messages.</td></tr>
+			<tr><td colspan="3"><u>Protection</u></td></tr>
+			<tr><td></td><td>firewall</td><td>A primary prevention technique which filters traffic passing through a point in the network.</td></tr>
+			<tr><td></td><td>spam filter</td><td>Firewalls designed to block unwanted email.</td></tr>
+			<tr><td></td><td>proxy server</td><td>A software unit that acts as an intermediary between a client and a server with the goal of shielding the client from adverse actions of the server.</td></tr>
+			<tr><td></td><td>antivirus software</td><td>Software used to detect and remove the presence of known viruses and other infections.</td></tr>
+			<tr><td></td><td>cryptography</td><td>The study of sending and receiving messages securely in the presence of adversaries.</td></tr>
+			<tr><td></td><td>public key encryption</td><td>A technique by which the encryption and decryption algorithms are known, and one of the keys is known, but the encoded message remains secure.</td></tr>
+			
+		</table>
+
+	</td></tr>
+
+</table>
+
+</body>
+</html>
