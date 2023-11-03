@@ -1,0 +1,127 @@
+<!DOCTYPE=html>
+<html lang="en">
+<!-- Name: Lewis Fassero-->
+<!-- Program Purpose: This is my PVCC "Programming Algorithms & Software Testing" webpage. It aims to define key terms related to programming algorithms & software testing.-->
+
+<head>
+	<title>Programming Algorithms & Software Testing</title>
+	<style>
+		body{color:#eee5e5; background-image: url(prwp.jpg); font-family: arial, Arial, Helvetica, sans-serif}
+		h1{color: #eee5e5}
+		h2{color: #eee5e5}
+		h3{color:#c9c1ff}
+		b{color:#c9c1ff}
+
+		table{background-color:#363636; width:50%; border:2px solid #ffffff; margin:auto}
+		tr{}
+		td{padding:9px; padding-left: 25px; padding-right: 25px;}
+		td.navbarstl{padding:0px}
+
+		ul{}
+		ol{}
+		li {}
+
+		a{text-decoration:none; font-weight:bold; font-size:1em}
+		a:link{color:#ab9fff}
+		a:visited{color:#8f81ff}
+		a:hover{color:#c9c1ff}
+		a:active{color:#ebe7ff}
+
+		a.navbarstl{text-decoration:none; font-weight:bold; font-size:1.2em}
+		a.navbarstl:link{color:#194f7e}
+		a.navbarstl:visited{color:#002e4c}
+		a.navbarstl:hover{color:#2875b0}
+		a.navbarstl:active{color:#00437e}
+		
+		.image-shadow {box-shadow: -1px 1px 20px #000000; /* Set the shadow properties (horizontal offset, vertical offset, blur radius, shadow color). */}
+
+		.centered-text {text-align: center;}
+
+	</style>
+</head>
+
+<body>
+<table>
+	<tr style="background-color:#ebe5ee; ">
+		<td class="navbarstl"><a href="index.html" class="navbarstl">Home</a></td>
+		<td class="navbarstl"><a href="https://www.pvcc.edu" class="navbarstl" target="_blank">PVCC</a></td>
+		<td class="navbarstl"><a href="https://www.w3schools.com/html/" class="navbarstl" target="_blank">W3 Schools</a></td>
+		<td class="navbarstl"><a href="contactus.html" class="navbarstl">Contact Us</a></td>
+	</tr>
+	<tr><td colspan="4" style="background-color: #ce80ff;">
+		<h1 class="centered-text" style="color:#00324c">Programming Algorithms & Software Testing</h1>
+	</td></tr>
+
+	<tr><td colspan="4">
+
+		<table style="width:100%; border:0px">
+			<tr><td><h3>Phases of computer program development:</h3><ol>
+				<li>Understand the problem</li>
+				<li>Design an algorithm to solve the problem</li>
+				<li>Write the program code in an appropriate language based on the algorithm</li>
+				<li>Enter the program and save</li>
+				<li>Execute the program</li>
+				<li>Test the program, find errors and debug, then retest</li>
+				<li>Document and evaluate the program</li>
+			</ol></td></tr>
+			<tr><td><h3>Programming structures:</h3><ul>
+				<li>Sequential structure: Top-down execution</li>
+				<li>Decision structures: if/then/else</li>
+				<li>Iterative (Looping):<ul>
+					<li>while loop: continue looping as long as something is true</li>
+					<li>repeat/until loop: continue looping until something is true</li>
+					<li>for loop: loop a given number of times</li></ul></li>
+				<li>Recursive structures:<ul>
+					<li>Repeat a set of instructions as a subtask of itself</li>
+					<li>Repetition continues until:<ul>
+						<li>degenerative case, which is a termination condition, is met</li>
+						<li>(degenerative case is also called a "base case")</li></ul></li></ul></li>
+			</ul></td></tr>
+			<tr><td><h3>Two classic programming/database problems</h3><ul>
+				<li>Sorting: Descending order/Ascending order<ul>
+					<li>Sorting numbers</li>
+					<li>Sorting Strings (in accordance with ASCII values)</li></ul></li>
+				<li>Searching: find specific data that meet a certain criterion<ul>
+					<li>In database:<ul>
+						<li>Filters: temporary search</li>
+						<li>Queries: search criteria are saved so they don't have to be recreated</li></ul></li>
+					<li>Two popular search techniques:<ul>
+						<li>Sequential search: search from top to bottom or bottom to top, one item at a time</li>
+						<li>Binary search:<ul>
+							<li>only works if data are SORTED first</li>
+							<li>start in the middle, then go to half of that, etc.</li></ul></li></ul></li></ul></li></ul></td></tr>
+			<tr><td><h3>Two classic program goals:</h3><ul>
+				<li>Efficiency: Program takes minimal time and/or resources</li>
+				<li>Correctness: Program runs in expected ways and works for all expected conditions</li></ul></td></tr>
+			<tr><td><h3>Software testing and verification</h3><ul>
+				<li>Kinds of tests:<ul>
+					<li><b>Acceptance testing</b>: Verifying whether the whole system works as intended.</li>
+					<li><b>Integration testing</b>: Ensuring that software components or functions operate together.</li>
+					<li><b>Unit testing</b>: Validating that each software unit performs as expected. A unit is the smallest testable component of an application.</li>
+					<li><b>Functional testing</b>: Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions.</li>
+					<li><b>Performance testing</b>: Testing how the software performs under different workloads. Load testing, for example, is used to evaluate performance under real-life load conditions.</li>
+					<li><b>Regression testing</b>: Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test.</li>
+					<li><b>Stress testing</b>: Testing how much strain the system can take before it fails. Considered to be a type of non-functional testing.</li>
+					<li><b>Usability testing</b>: Validating how well a customer can use a system or web application to complete a task.</li></ul></li>
+				<li>Software testing is done to detect:<ul>
+					<li>Architectural flaws</li>
+					<li>Poor design decisions</li>
+					<li>Invalid or incorrect functionality</li>
+					<li>Security vulnerabilities</li>
+					<li>Scalability issues</li></ul></li>
+				<li>Testing best practices:<ul>
+					<li><b>Continuous testing</b>: Project teams test each build as it becomes available. This type of software testing relies on test automation that is integrated with the deployment process. It enables software to be validated in realistic test environments earlier in the process – improving design and reducing risks.</li>
+					<li><b>Configuration management</b>: Organizations centrally maintain test assets and track what software builds to test. Teams gain access to assets such as code, requirements, design documents, models, test scripts and test results. Good systems include user authentication and audit trails to help teams meet compliance requirements with minimal administrative effort.</li>
+					<li><b>Service virtualization</b>: Testing environments may not be available, especially early in code development. Service virtualization simulates the services and systems that are missing or not yet completed, enabling teams to reduce dependencies and test sooner. They can reuse, deploy and change a configuration to test different scenarios without having to modify the original environment.</li>
+					<li><b>Defect or bug tracking</b>: Monitoring defects is important to both testing and development teams for measuring and improving quality. Automated tools allow teams to track defects, measure their scope and impact, and uncover related issues.</li>
+					<li><b>Metrics and reporting</b>: Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrate project metrics and present results in a dashboard. Teams quickly see the overall health of a project and can monitor relationships between test, development and other project elements.</li></ul></li>
+				<li>From IBM: <a href="https://www.ibm.com/topics/software-testing" target="_blank">What is software-testing?</a></li></ul></td></tr>
+			
+		</table>
+
+	</td></tr>
+
+</table>
+
+</body>
+</html>
